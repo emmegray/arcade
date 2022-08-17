@@ -1,0 +1,21 @@
+.grid {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgb(189, 76, 0);
+  border-radius: 5%;
+}
+
+.mole {
+  background-image: url(https://media0.giphy.com/media/f8hoeUcoNiIELpy4Jf/giphy.gif);
+  background-position: center;
+  background-size: contain;
+}
