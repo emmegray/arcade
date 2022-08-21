@@ -29,3 +29,7 @@ body {
 h1, h2{
   color: rgb(130, 61, 0);
 }
+
+.btn a {
+  text-decoration: none;
+}

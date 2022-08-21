@@ -1,0 +1,77 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/ea/ba/1e/eaba1e71d4de886bffbeb98bb842769c.jpg);
+  background-repeat: repeat;
+  background-color: rgb(209, 228, 200);
+}
+
+.bg-trasparent {
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
+.grid {
+  border: 1px solid black;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.ending-block {
+  background-color: red;
+}
+
+.starting-block {
+  background-color: blue;
+}
+
+.l1,
+.l2,
+.l3 {
+  background-color: brown;
+}
+
+.l4,
+.l5 {
+  background-color: lightblue;
+}
+
+.c1 {
+  background-color: black;
+}
+
+.c2,
+.c3 {
+  background-color: lightgrey;
+}
+
+.frog {
+  background-color: green;
+  /* background-image: url(https://media2.giphy.com/media/65h685bN940XOqtAyH/giphy.gif); */
+}
+
+.frog-gif {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+}

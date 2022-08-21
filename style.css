@@ -2,6 +2,47 @@ body {
   background-color: gray;
 }
 
+.btn:hover {
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 28px 0px rgba(255, 255, 255, 1);
+}
+
+.btn a {
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
+}
+
+.bg-retro {
+  background-image: url(https://images.unsplash.com/photo-1585881728919-5c0ce925ad10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+.card {
+  color: black;
+}
+
+.card{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-right: 5px;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-box-shadow: 0px 10px 25px 14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 25px 14px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 25px 14px rgba(0, 0, 0, 0.75);
+}
+
+.zoom {
+  transition: transform 1s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }

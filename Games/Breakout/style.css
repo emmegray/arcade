@@ -31,3 +31,7 @@
 .btn {
   margin-bottom: 10px;
 }
+
+.btn a {
+  text-decoration: none;
+}
