@@ -7,6 +7,7 @@ let computerChoice
 let result
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
+  if (!e.target.id) return; // Prevent errors if button has no id
   userChoice = e.target.id
   userChoiceDisplay.innerHTML = userChoice
   generateComputerChoice()
@@ -21,10 +22,10 @@ function generateComputerChoice() {
     computerChoice = 'rock'
   }
   if (randomNumber === 1) {
-    computerChoice = 'scissors'
+    computerChoice = 'paper'
   }
   if (randomNumber === 2) {
-    computerChoice = 'paper'
+    computerChoice = 'scissors'
   }
   computerChoiceDisplay.innerHTML = computerChoice
 }
@@ -32,23 +33,17 @@ function generateComputerChoice() {
 function getResult() {
   if (computerChoice === userChoice) {
     result = 'it\'s a draw!'
-  }
-  if (computerChoice === 'rock' && userChoice === "paper") {
+  } else if (computerChoice === 'rock' && userChoice === "paper") {
     result = 'you win!'
-  }
-  if (computerChoice === 'rock' && userChoice === "scissors") {
+  } else if (computerChoice === 'rock' && userChoice === "scissors") {
     result = 'you lose!'
-  }
-  if (computerChoice === 'paper' && userChoice === "rock") {
+  } else if (computerChoice === 'paper' && userChoice === "rock") {
     result = 'you lose!'
-  }
-  if (computerChoice === 'paper' && userChoice === "scissors") {
+  } else if (computerChoice === 'paper' && userChoice === "scissors") {
     result = 'you win!'
-  }
-  if (computerChoice === 'scissors' && userChoice === "rock") {
+  } else if (computerChoice === 'scissors' && userChoice === "rock") {
     result = 'you win!'
-  }
-  if (computerChoice === 'scissors' && userChoice === "paper") {
+  } else if (computerChoice === 'scissors' && userChoice === "paper") {
     result = 'you lose!'
   }
   resultDisplay.innerHTML = result

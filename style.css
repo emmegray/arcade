@@ -1,3 +1,5 @@
+/*HOME*/
+
 body {
   background-color: gray;
 }
@@ -29,6 +31,13 @@ a {
   filter: grayscale(100%);
   margin-right: 5px;
   margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 .card:hover {
