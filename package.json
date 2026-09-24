@@ -1,0 +1,21 @@
+{
+  "name": "arcade",
+  "version": "1.0.0",
+  "description": "This is a little group of retro games made with vanilla JS, HTML and CSS. Made for practice to improve my skill, hope you enjoy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmegray/arcade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/emmegray/arcade/issues"
+  },
+  "homepage": "https://github.com/emmegray/arcade#readme"
+}
